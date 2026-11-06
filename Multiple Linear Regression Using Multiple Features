@@ -1,0 +1,45 @@
+# Project 03 – Multiple Linear Regression Using Multiple Features
+
+## Overview
+This project demonstrates Multiple Linear Regression using multiple independent variables to predict a continuous target variable.
+
+## Objective
+Understand how multiple input features (X) contribute to predicting a target variable (y).
+
+## Technologies Used
+- Python
+- Jupyter Notebook
+- Pandas
+- Scikit-learn
+
+## Concepts Covered
+- Independent and dependent variables
+- Selecting multiple features using Pandas
+- Data preparation
+- Train-test splitting
+- Multiple Linear Regression
+- Model training using `fit()`
+- Predictions using `predict()`
+
+## Model Implementation
+
+```python
+X = df[['Feature_1', 'Feature_2', 'Feature_3']]
+y = df['Target']
+
+model = LinearRegression()
+model.fit(X, y)
+```
+
+## Learning Outcome
+Learned how to train a regression model using multiple independent features and generate predictions for a continuous target variable.
+
+## Future Improvements
+- Evaluate using MAE, MSE, RMSE and R²
+- Compare actual and predicted values
+- Analyze feature coefficients
+- Check model assumptions
+
+**Author:** Kishore Kumar
+
+**Status:** Learning project
