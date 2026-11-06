@@ -1,45 +1,41 @@
-# First Machine Learning Project – Linear Regression
+# Machine Learning Learning Journey
 
-## Overview
-This is my first hands-on Machine Learning project, developed as part of my journey to understand and practice Machine Learning using Python.
+Welcome to my hands-on Machine Learning learning journey!
 
-## Project Objective
-Build a Linear Regression model to understand the relationship between advertising expenditure and sales revenue and predict sales revenue based on advertising spend.
+This repository documents my progress in learning Machine Learning algorithms using Python, Jupyter Notebook, and Scikit-learn.
 
-## Technologies Used
+## Projects
+
+| No. | Project | Algorithm | Concepts |
+|---|---|---|---|
+| 01 | Ad Spend vs Sales Revenue Prediction | Linear Regression | Regression fundamentals |
+| 02 | House Price Prediction | Multiple Linear Regression | One-Hot Encoding |
+
+## Technologies & Tools
 - Python
-- Jupyter Notebook
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborn
 - Scikit-learn
+- Jupyter Notebook
+- Git & GitHub
 
-## Machine Learning Algorithm
-**Linear Regression**
+## Learning Roadmap
+- [x] Linear Regression
+- [x] Multiple Linear Regression
+- [ ] Logistic Regression
+- [ ] Decision Tree
+- [ ] Random Forest
+- [ ] K-Nearest Neighbors
+- [ ] Support Vector Machine
+- [ ] K-Means Clustering
+- [ ] Naive Bayes
+- [ ] XGBoost
 
-## Project Workflow
-1. Import required Python libraries.
-2. Load and explore the dataset.
-3. Separate independent and dependent variables.
-4. Split the dataset into training and testing sets.
-5. Create a Linear Regression model.
-6. Train the model using `model.fit()`.
-7. Predict sales revenue using test data.
-8. Evaluate model performance using MAE, MSE, RMSE and R².
-
-## Key Learning Outcomes
-- Understanding supervised machine learning.
-- Understanding independent and dependent variables.
-- Learning the train-test split technique.
-- Training a Linear Regression model.
-- Making predictions using Scikit-learn.
-- Understanding regression evaluation metrics.
-
-## Status
-Completed initial model training. Prediction and model evaluation are the next steps in this learning exercise.
-
----
+## Objective
+To develop practical Machine Learning skills by implementing algorithms, working with datasets, understanding model evaluation, and documenting each project.
 
 **Author:** Kishore Kumar
 
-*This repository documents my practical Machine Learning learning journey, starting with Linear Regression.*
+*Learning Machine Learning one algorithm at a time!*
